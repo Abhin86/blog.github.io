@@ -178,7 +178,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "#"
+        URL: "https://github.com/Abhin-Anilkumar/Terraform-for-GKE-private-cluster-with-a-Bastion-Host.git"
       image:
         x: "images/works/radity-finance.jpg"
         _2x: "images/works/radity-finance@2x.jpg"
@@ -189,7 +189,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "#"
+        URL: "https://github.com/Abhin-Anilkumar/GCP-Managed-Certificate-in-Kubernetes.git"
       image:
         x: "images/works/swissfintech.jpg"
         _2x: "images/works/swissfintech@2x.jpg"
