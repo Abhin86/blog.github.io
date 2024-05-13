@@ -1,0 +1,139 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Abhin Anil Kumar."
+  subtitle: "DevOps Engineer"
+  description: >
+        Enthusiastic and dedicated DevOps Engineer with a strong educational background and specialized certifications in CCNA and AWS Solutions Architect. Proficient in a broad range of DevOps tools and cloud platforms, and currently working at Urolime Technologies. Explore my projects and professional journey on this site.
+  image:
+    x: "images/showcase/showcase.png"
+    _2x: "images/showcase/showcase@2x.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:abhinachu23@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/abhin-a-9a1073217/"
+
+    - icon: "github"
+      URL: "https://github.com/zetxek"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/zetxek"
+
+    - icon: "dribbble"
+      URL: "#"
+
+    - icon: "behance"
+      URL: "#"
+
+    - icon: "youtube"
+      URL: "#"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/zetxek/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/zetxek/"
+
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: >
+    <p class="lead">
+          I'm a DevOps Engineer with a Bachelor of Computer Applications from the University of Kerala, specialized in cloud technologies and DevOps methodologies. My professional journey is marked by continuous learning and applying cutting-edge technologies to solve real-world problems.
+      </p>
+      <p class="lead">
+            At Urolime Technologies, I focus on enhancing cloud operations and infrastructure across various platforms including AWS, GCP, and Azure. I am passionate about creating efficient, scalable solutions that drive business success.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/abhin-a-9a1073217/"
+  image:
+    x: "images/who-am-i/ImportedPhoto_1715143049940.jpg"
+    _2x: "images/who-am-i/ImportedPhoto_1715143049940.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Kerala"
+      year: "2017-2020"
+      degree: "Bachelor of Computer Application (BCA)"
+
+    - university: "Govt H S S Kamaleswaram"
+      year: "2015-2017"
+      degree: "Higher Secondary Education, Science"
+
+# experience
+experience:
+  enable: true
+  title: "Professional Experience"
+  description: >
+        Over 2 years of experience in the IT industry focusing on DevOps practices. I have worked on various projects ranging from serverless applications to infrastructure provisioning and cloud deployments.
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/abhin-a-9a1073217/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://docs.google.com/document/d/1farkDjD5G527CO5Oyi9F-_pKalJX_jdLh4hU4HNnpXE/edit?usp=sharing"
+
+  items:
+    - title: "Junior DevOps Engineer"
+      company: "Urolime Technologies"
+      duration: "November 2023 - Present"
+
+    - title: "Junior Engineer (DevOps)"
+      company: "Urolime Technologies"
+      duration: "October 2022 – November 2023"
+
+        #    - title: "Jr. Title"
+        #      company: "Company, Inc"
+        #      duration: "Jun 2009 - Mar 2010"
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://submit-form.com/xEKoLbitS"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+91 7736083121"
+  email:
+    title: "Email"
+    email: '<a href="mailto:abhinachu23@gmail.com">abhinachu23@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Kerala, India <br />695027, Trivandrum"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+# newsletter
+#newsletter:
+  #  enable: true
+    #  title: "Newsletter subscription"
+    #  success_message: "Successfully subscribed"
+    #  error_message: "Error while subscribing."
+    #  note: "We'll never share your email with anyone else."
