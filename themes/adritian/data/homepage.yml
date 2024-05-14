@@ -173,8 +173,8 @@ client_and_work:
         _2x: "images/clients/ztos@2x.png"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Terraform for GKE private cluster"
+      description: "Terraform for GKE private cluster. "
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
@@ -184,8 +184,8 @@ client_and_work:
         _2x: "images/works/radity-finance@2x.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "GCP Managed Certificate"
+      description: "GCP Managed Certificates for Kubernetes Cluster"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
