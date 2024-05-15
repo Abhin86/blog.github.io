@@ -180,8 +180,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "https://github.com/Abhin-Anilkumar/Terraform-for-GKE-private-cluster-with-a-Bastion-Host.git"
       image:
-        x: "images/works/radity-finance.jpg"
-        _2x: "images/works/radity-finance@2x.jpg"
+        x: "images/works/terr.png"
+        _2x: "images/works/terr.png"
       is_even: true
 
     - title: "GCP Managed Certificate"
@@ -191,32 +191,42 @@ client_and_work:
         btnText: "Case Study"
         URL: "https://github.com/Abhin-Anilkumar/GCP-Managed-Certificate-in-Kubernetes.git"
       image:
-        x: "images/works/swissfintech.jpg"
-        _2x: "images/works/swissfintech@2x.jpg"
+        x: "images/works/dall.webp"
+        _2x: "images/works/dall.webp"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Node.js Application and Its Helm Chart"
+      description: "Node.js application along with its Helm chart for easy deployment on Kubernetes clusters."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "images/works/robo-advisor.jpg"
-        _2x: "images/works/robo-advisor@2x.jpg"
+        x: "images/works/4.webp"
+        _2x: "images/works/4.webp"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Mario in GKE"
+      description: "configurations and code to deploy a Mario application on Google Kubernetes Engine (GKE)."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "images/works/swissfintech.jpg"
-        _2x: "images/works/swissfintech@2x.jpg"
+        x: "images/works/5.webp"
+        _2x: "images/works/5.webp"
       is_even: false
 
+    - title: "Azure Infrastructure with Terraform"
+      description: "Terraform modules for deploying various resources on Azure, including resource groups, storage accounts, service plans, application insights, and function apps."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/dall.webp"
+        _2x: "images/works/dall.webp"
+      is_even: true
 
 # testimonial
 testimonial:
