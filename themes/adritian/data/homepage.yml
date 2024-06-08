@@ -119,58 +119,74 @@ client_and_work:
 
   clients:
     - logo:
-        x: "images/clients/Amazon_Web_Services-Logo.wine.png"
-        _2x: "images/clients/Amazon_Web_Services-Logo.wine.png"
+        x: "images/clients/aws.png"
+        _2x: "images/clients/aws.png"
       alt: "Asgardia"
 
     - logo:
-        x: "images/clients/Microsoft_Azure-Logo.wine.png"
-        _2x: "images/clients/earth-2@2x.png"
+        x: "images/clients/azure.png"
+        _2x: "images/clients/azure.png"
       alt: "Earth 2.0"
 
     - logo:
         x: "images/clients/google.png"
-        _2x: "images/clients/earth-2@2x.png"
+        _2x: "images/clients/google.png"
 
     - logo:
         x: "images/clients/docker.png"
-        _2x: "images/clients/goldline@2x.png"
+        _2x: "images/clients/docker.png"
       alt: "Goldline"
 
     - logo:
         x: "images/clients/kubernetes.png"
-        _2x: "images/clients/kanba@2x.png"
+        _2x: "images/clients/kubernetes.png"
       alt: "Kanba"
 
     - logo:
         x: "images/clients/terraform.png"
-        _2x: "images/clients/zoo-tv@2x.png"
+        _2x: "images/clients/terraform.png"
       alt: "Zoo"
 
     - logo:
         x: "images/clients/jenkins.png"
-        _2x: "images/clients/ztos@2x.png"
+        _2x: "images/clients/jenkins.png"
       alt: "Ztos"
 
     - logo:
         x: "images/clients/github.png"
-        _2x: "images/clients/ztos@2x.png"
+        _2x: "images/clients/github.png"
 
     - logo:
         x: "images/clients/gitlab.png"
-        _2x: "images/clients/ztos@2x.png"
+        _2x: "images/clients/gitlab.png"
 
     - logo:
         x: "images/clients/bitbucket.png"
-        _2x: "images/clients/ztos@2x.png"
+        _2x: "images/clients/gitlab.png"
 
     - logo:
         x: "images/clients/prometheus.png"
-        _2x: "images/clients/ztos@2x.png"
+        _2x: "images/clients/prometheus.png"
 
     - logo:
         x: "images/clients/grafana.png"
-        _2x: "images/clients/ztos@2x.png"
+        _2x: "images/clients/grafana.png"
+
+    - logo:
+        x: "images/clients/linux.png"
+        _2x: "images/clients/linux.png"
+
+    - logo:
+        x: "images/clients/ubuntu.png"
+        _2x: "images/clients/ubuntu.png"
+
+    - logo:
+        x: "images/clients/rhel.png"
+        _2x: "images/clients/rhel.png"
+
+    - logo:
+        x: "images/clients/python.png"
+        _2x: "images/clients/python.png"
 
   works:
     - title: "Terraform for GKE private cluster"
