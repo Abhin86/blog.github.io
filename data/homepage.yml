@@ -6,10 +6,10 @@ showcase:
   description: >
         Enthusiastic and dedicated DevOps Engineer with a strong educational background and specialized certifications in CCNA and AWS Solutions Architect. Proficient in a broad range of DevOps tools and cloud platforms, and currently working at Urolime Technologies. Explore my projects and professional journey on this site.
   image:
-    x: "images/showcase/show.webp"
-    _2x: "images/showcase/show.webp"
+    x: "images/showcase/show.jpg"
+    _2x: "images/showcase/show.jpg"
   imageMobile:
-    x: "images/showcase/show.webp"
+    x: "images/showcase/show.jpg"
 
   button:
     icon: "icon-mail-fill"
