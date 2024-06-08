@@ -162,7 +162,7 @@ client_and_work:
 
     - logo:
         x: "images/clients/bitbucket.png"
-        _2x: "images/clients/gitlab.png"
+        _2x: "images/clients/bitbucket.png"
 
     - logo:
         x: "images/clients/prometheus.png"
