@@ -207,9 +207,9 @@ client_and_work:
         btnText: "Case Study"
         URL: "https://github.com/Abhin-Anilkumar/GCP-Managed-Certificate-in-Kubernetes.git"
       image:
-        x: "images/works/dall.webp"
-        _2x: "images/works/dall.webp"
-      is_even: false
+        x: "images/works/managed.png"
+        _2x: "images/works/managed.png"
+      is_even: true
 
     - title: "Node.js Application and Its Helm Chart"
       description: "Node.js application along with its Helm chart for easy deployment on Kubernetes clusters."
@@ -218,8 +218,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "images/works/node.jpg"
-        _2x: "images/works/node.jpg"
+        x: "images/works/nodejs.png"
+        _2x: "images/works/nodejs.png"
       is_even: true
 
     - title: "Mario in GKE"
@@ -229,9 +229,9 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "images/works/5.webp"
-        _2x: "images/works/5.webp"
-      is_even: false
+        x: "images/works/mario.png"
+        _2x: "images/works/mario.png"
+      is_even: true
 
     - title: "Azure Infrastructure with Terraform"
       description: "Terraform modules for deploying various resources on Azure, including resource groups, storage accounts, service plans, application insights, and function apps."
@@ -240,8 +240,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "images/works/dall.webp"
-        _2x: "images/works/dall.webp"
+        x: "images/works/azu.png"
+        _2x: "images/works/azu.png"
       is_even: true
 
 # testimonial
