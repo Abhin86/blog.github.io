@@ -218,8 +218,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "images/works/4.webp"
-        _2x: "images/works/4.webp"
+        x: "images/works/node.jpg"
+        _2x: "images/works/node.jpg"
       is_even: true
 
     - title: "Mario in GKE"
