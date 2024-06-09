@@ -216,7 +216,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "#"
+        URL: "https://github.com/Abhin-Anilkumar/Nodejs-Application-and-it-s-helm-Chart.git"
       image:
         x: "images/works/nodejs.png"
         _2x: "images/works/nodejs.png"
@@ -227,7 +227,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "#"
+        URL: "https://github.com/Abhin-Anilkumar/mario-app-in-a-gke-cluster.git"
       image:
         x: "images/works/mario.png"
         _2x: "images/works/mario.png"
@@ -238,7 +238,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "#"
+        URL: "https://github.com/Abhin-Anilkumar/Azure-infrastructure-with-Terraform.git"
       image:
         x: "images/works/azu.png"
         _2x: "images/works/azu.png"
