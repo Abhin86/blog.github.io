@@ -233,16 +233,16 @@ client_and_work:
         _2x: "images/works/mario.png"
       is_even: true
 
-    - title: "Azure Infrastructure with Terraform"
-      description: "Terraform modules for deploying various resources on Azure, including resource groups, storage accounts, service plans, application insights, and function apps."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "https://github.com/Abhin-Anilkumar/Azure-infrastructure-with-Terraform.git"
-      image:
-        x: "images/works/azu.png"
-        _2x: "images/works/azu.png"
-      is_even: true
+        #    - title: "Azure Infrastructure with Terraform"
+      #      description: "Terraform modules for deploying various resources on Azure, including resource groups, storage accounts, service plans, application insights, and function apps."
+        #      button:
+        #        icon: "icon-arrow-right"
+          #        btnText: "Case Study"
+          #        URL: "https://github.com/Abhin-Anilkumar/Azure-infrastructure-with-Terraform.git"
+          #      image:
+        #        x: "images/works/azu.png"
+          #        _2x: "images/works/azu.png"
+          #      is_even: true
 
 # testimonial
 testimonial:
