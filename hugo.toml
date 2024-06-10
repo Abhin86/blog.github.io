@@ -26,7 +26,7 @@ theme = "adritian"
 [menu]
 
   [[menu.header]]
-  name = "Home"
+  name = "About"
   URL = "#about"
   weight = 2
 
