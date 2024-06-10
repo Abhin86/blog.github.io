@@ -26,8 +26,8 @@ theme = "adritian"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "https://www.abhinanilkumar.online"
+  name = "Home"
+  URL = "#about"
   weight = 2
 
   [[menu.header]]
