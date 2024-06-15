@@ -113,7 +113,7 @@ contact:
   enable: true
   title: "Contact"
   form:
-    action: "https://submit-form.com/xEKoLbitS"
+    action: "https://formspree.io/f/xdoqqpwj"
     method: "POST"
     full_name: "Full Name"
     email: "Email Address"
