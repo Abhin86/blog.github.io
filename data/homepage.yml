@@ -14,7 +14,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "mailto:abhinanikumar25@gmail.com"
+    URL: "mailto:abhinanilkumar25@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
@@ -102,7 +102,7 @@ contact:
     number: "+91 7736083121"
   email:
     title: "Email"
-    email: '<a href="mailto:abhinanikumar25@gmail.com">abhinanikumar25@gmail.com</a>'
+    email: '<a href="mailto:abhinanilkumar25@gmail.com">abhinanilkumar25@gmail.com</a>'
   address:
     title: "Address"
     address: "Kerala, India <br />695027, Trivandrum"
