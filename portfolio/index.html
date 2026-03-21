@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Abhin Anil Kumar | DevOps Engineer — AWS, Kubernetes, Terraform</title>
+    <meta name="description" content="Portfolio of Abhin Anil Kumar — DevOps Engineer with 3+ years of experience in AWS, Kubernetes, Docker, Terraform, CI/CD pipelines, and cloud infrastructure automation based in Kerala, India.">
+    <meta name="keywords" content="DevOps Engineer, AWS, Kubernetes, Docker, Terraform, Jenkins, CI/CD, Cloud Infrastructure, Linux, Site Reliability, Abhin Anil Kumar">
+    <meta name="author" content="Abhin Anil Kumar">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.abhinanilkumar.online/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.abhinanilkumar.online/">
+    <meta property="og:title" content="Abhin Anil Kumar | DevOps Engineer">
+    <meta property="og:description" content="DevOps Engineer with 3+ years of experience in AWS, Kubernetes, Docker, Terraform, CI/CD, and cloud infrastructure automation.">
+    <meta property="og:image" content="https://www.abhinanilkumar.online/portfolio/images/hero.jpg">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Abhin Anil Kumar | DevOps Engineer">
+    <meta name="twitter:description" content="DevOps Engineer with 3+ years of experience in AWS, Kubernetes, Docker, Terraform, CI/CD, and cloud infrastructure automation.">
+    <meta name="twitter:image" content="https://www.abhinanilkumar.online/portfolio/images/hero.jpg">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abhin Anil Kumar",
+        "jobTitle": "DevOps Engineer",
+        "url": "https://www.abhinanilkumar.online",
+        "email": "abhinanilkumar25@gmail.com",
+        "telephone": "+917736083121",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trivandrum",
+            "addressRegion": "Kerala",
+            "postalCode": "695027",
+            "addressCountry": "IN"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/abhin-a-9a1073217/",
+            "https://github.com/Abhin-Anilkumar"
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Kerala"
+        },
+        "knowsAbout": ["AWS", "Kubernetes", "Docker", "Terraform", "Jenkins", "CI/CD", "Linux", "Ansible", "Prometheus", "Grafana"]
+    }
+    </script>
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a1a">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo" aria-label="Abhin Anil Kumar - Home">
+                <span class="logo-text">Abhin</span><span class="logo-dot">.</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu" role="menubar">
+                <li role="none"><a href="#hero" class="nav-link active" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+                <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-effects">
+                <div class="hero-orb hero-orb--1"></div>
+                <div class="hero-orb hero-orb--2"></div>
+                <div class="hero-grid"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting reveal">Hello, I'm</p>
+                    <h1 class="hero-name reveal">Abhin Anil Kumar</h1>
+                    <div class="hero-title-wrapper reveal">
+                        <span class="hero-title-prefix">I'm a </span>
+                        <span class="hero-title-typed" id="typedText"></span>
+                        <span class="hero-cursor">|</span>
+                    </div>
+                    <p class="hero-description reveal">
+                        Building scalable, reliable cloud infrastructure and CI/CD pipelines. 
+                        Passionate about automation, Kubernetes, and infrastructure as code.
+                    </p>
+                    <div class="hero-cta reveal">
+                        <a href="#contact" class="btn btn-primary" id="heroContactBtn">
+                            <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                        </a>
+                        <a href="Abhincv.pdf" class="btn btn-outline" download id="heroResumeBtn">
+                            <i class="fa-solid fa-download"></i> Resume
+                        </a>
+                    </div>
+                    <div class="hero-socials reveal">
+                        <a href="https://www.linkedin.com/in/abhin-a-9a1073217/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" id="socialLinkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Abhin-Anilkumar" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" id="socialGithub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/__abh_in?igsh=eDBvc3RxcW5jamE2" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" id="socialInstagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="mailto:abhinanilkumar25@gmail.com" aria-label="Send Email" id="socialEmail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="hero-image-wrapper">
+                        <img src="images/hero.jpg" alt="Abhin Anil Kumar — DevOps Engineer" width="480" height="480" loading="eager">
+                        <div class="hero-image-ring"></div>
+                        <div class="hero-image-ring hero-image-ring--2"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </a>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section class="section section-about" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-tag">About Me</p>
+                    <h2 class="section-title">Who am I?</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image reveal">
+                        <div class="about-image-wrapper">
+                            <img src="images/profile.jpg" alt="Abhin Anil Kumar portrait" width="400" height="400" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="about-content reveal">
+                        <p>
+                            I'm a <strong>DevOps Engineer</strong> with a Bachelor of Computer Applications from the University of Kerala, specialized in cloud technologies and DevOps methodologies. My professional journey is marked by continuous learning and applying cutting-edge technologies to solve real-world problems.
+                        </p>
+                        <p>
+                            Currently at <strong>Shopalyst Technologies</strong>, I work with AWS, Docker, Kubernetes, Terraform, and Jenkins to deliver zero-downtime deployments and robust observability. Previously at <strong>Urolime Technologies</strong>, I provisioned EKS/GKE clusters, migrated legacy systems to clustered environments, and set up disaster recovery — all with a focus on automation and reliability.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="75">0</span><span class="stat-suffix">+</span>
+                                <span class="stat-label">Servers Managed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="2">0</span>
+                                <span class="stat-label">Cloud Platforms</span>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/abhin-a-9a1073217/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="aboutLinkedinBtn">
+                            <i class="fa-brands fa-linkedin-in"></i> View LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section class="section section-skills" id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-tag">What I Work With</p>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card reveal" id="skillOS">
+                        <div class="skill-card-icon"><i class="fa-brands fa-linux"></i></div>
+                        <h3 class="skill-card-title">Operating Systems</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Ubuntu</span>
+                            <span class="skill-tag">RHEL</span>
+                            <span class="skill-tag">Linux Admin</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" id="skillCloud">
+                        <div class="skill-card-icon"><i class="fa-solid fa-cloud"></i></div>
+                        <h3 class="skill-card-title">Cloud Platforms</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Azure</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" id="skillCICD">
+                        <div class="skill-card-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                        <h3 class="skill-card-title">CI/CD & Automation</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Argo CD</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" id="skillContainers">
+                        <div class="skill-card-icon"><i class="fa-solid fa-cubes"></i></div>
+                        <h3 class="skill-card-title">Containers & Orchestration</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">Helm</span>
+                            <span class="skill-tag">EKS</span>
+                            <span class="skill-tag">GKE</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" id="skillIaC">
+                        <div class="skill-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h3 class="skill-card-title">Infrastructure as Code</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">Ansible</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" id="skillMonitoring">
+                        <div class="skill-card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3 class="skill-card-title">Monitoring & Logging</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Prometheus</span>
+                            <span class="skill-tag">Grafana</span>
+                            <span class="skill-tag">ELK/EFK</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal" id="skillScripting">
+                        <div class="skill-card-icon"><i class="fa-solid fa-terminal"></i></div>
+                        <h3 class="skill-card-title">Scripting & VCS</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Bash</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section class="section section-experience" id="experience">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-tag">My Journey</p>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">Over 3 years of experience in DevOps, cloud infrastructure, and automation — building CI/CD pipelines, managing Kubernetes clusters, and implementing monitoring across production environments.</p>
+                </div>
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item reveal" id="expShopalyst">
+                        <div class="timeline-marker">
+                            <div class="timeline-marker-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Current</div>
+                            <h3 class="timeline-title">DevOps Engineer</h3>
+                            <p class="timeline-company"><i class="fa-solid fa-building"></i> Shopalyst Technologies</p>
+                            <p class="timeline-date"><i class="fa-regular fa-calendar"></i> Sep 2024 — Present</p>
+                            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</p>
+                            <ul class="timeline-details">
+                                <li>Upgraded Node.js across 75 AWS-hosted servers using shell scripts and Ansible, with zero downtime redeployment</li>
+                                <li>Deployed and configured EFK (Elasticsearch, Fluentd, Kibana) stack for centralized logging across distributed systems</li>
+                                <li>Designed CI/CD pipelines using Jenkins to deploy applications across multiple environments on AWS SSM-managed servers</li>
+                                <li>Monitored system health using Prometheus and Grafana, setting up dashboards and alerts for proactive issue detection</li>
+                                <li>Supported Linux system administration on Ubuntu and RHEL, automating tasks with Bash scripting</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Experience 2 -->
+                    <div class="timeline-item reveal" id="expUrolime">
+                        <div class="timeline-marker">
+                            <div class="timeline-marker-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">DevOps Engineer</h3>
+                            <p class="timeline-company"><i class="fa-solid fa-building"></i> Urolime Technologies</p>
+                            <p class="timeline-date"><i class="fa-regular fa-calendar"></i> Oct 2022 — Aug 2024</p>
+                            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</p>
+                            <ul class="timeline-details">
+                                <li>Provisioned Amazon EKS with Terraform, automating cluster, networking, and IAM configurations</li>
+                                <li>Deployed GKE using Terraform and Helm Charts for Node.js apps, optimizing CI/CD workflows with Google Cloud tools and Jenkins</li>
+                                <li>Migrated legacy on-premise apps to a clustered environment, enhancing scalability and integrating monitoring</li>
+                                <li>Established a robust DR setup, ensuring seamless failover and uninterrupted operations during outages</li>
+                                <li>Configured Kubernetes clusters using kubeadm in air-gapped environments for secure offline deployments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-cta reveal">
+                    <a href="https://www.linkedin.com/in/abhin-a-9a1073217/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="expLinkedinBtn">
+                        <i class="fa-brands fa-linkedin-in"></i> View Full Profile on LinkedIn
+                    </a>
+                    <a href="Abhincv.pdf" class="btn btn-primary" download id="expResumeBtn">
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EDUCATION SECTION ===== -->
+        <section class="section section-education" id="education">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-tag">Academic Background</p>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card reveal" id="eduBCA">
+                        <div class="education-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3 class="education-card-degree">Bachelor of Computer Application (BCA)</h3>
+                        <p class="education-card-university"><i class="fa-solid fa-university"></i> University of Kerala</p>
+                        <p class="education-card-year"><i class="fa-regular fa-calendar"></i> 2017 — 2020</p>
+                        <p class="education-card-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</p>
+                    </div>
+                    <div class="education-card reveal" id="eduHSS">
+                        <div class="education-card-icon"><i class="fa-solid fa-school"></i></div>
+                        <h3 class="education-card-degree">Higher Secondary Education — Science</h3>
+                        <p class="education-card-university"><i class="fa-solid fa-university"></i> Govt H S S Kamaleswaram</p>
+                        <p class="education-card-year"><i class="fa-regular fa-calendar"></i> 2015 — 2017</p>
+                        <p class="education-card-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="section section-contact" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-tag">Let's Connect</p>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Have a question or want to work together? Feel free to reach out!</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <div class="contact-info-item" id="contactPhone">
+                            <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h3>Phone</h3>
+                                <a href="tel:+917736083121">+91 7736083121</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item" id="contactEmail">
+                            <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:abhinanilkumar25@gmail.com">abhinanilkumar25@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item" id="contactAddress">
+                            <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Trivandrum, Kerala, India — 695027</p>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="https://www.linkedin.com/in/abhin-a-9a1073217/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Abhin-Anilkumar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/__abh_in?igsh=eDBvc3RxcW5jamE2" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form reveal" action="https://formspree.io/f/xdoqqpwj" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="name" placeholder="Your full name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">Email Address</label>
+                            <input type="email" id="emailInput" name="email" placeholder="your.email@example.com" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="messageInput">Message</label>
+                            <textarea id="messageInput" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" id="contactSubmitBtn">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo" aria-label="Back to top">
+                    <span class="logo-text">Abhin</span><span class="logo-dot">.</span>
+                </a>
+                <p class="footer-text">&copy; 2025 Abhin Anil Kumar. Built with passion.</p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/abhin-a-9a1073217/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Abhin-Anilkumar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:abhinanilkumar25@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/main.js" defer></script>
+</body>
+</html>

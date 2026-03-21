@@ -1,0 +1,218 @@
+/* ================================
+   Portfolio Custom Styles
+   ================================ */
+
+/* --- Skills Section --- */
+.section-skills {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fc 0%, #eef1f7 100%);
+}
+
+.section-skills__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1a1a2e;
+  position: relative;
+  display: inline-block;
+}
+
+.section-skills__title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #4361ee, #3a0ca3);
+  border-radius: 2px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  height: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(67, 97, 238, 0.08);
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(67, 97, 238, 0.15);
+}
+
+.skill-card__icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.skill-card__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+
+.skill-card__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #eef2ff 0%, #e8ecf8 100%);
+  color: #3a0ca3;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(67, 97, 238, 0.1);
+}
+
+.skill-tag:hover {
+  background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* --- Showcase Enhancements --- */
+.rad-showcase .display-1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.rad-showcase .display-1 span {
+  background: linear-gradient(135deg, #4361ee, #7209b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.rad-showcase .lead {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #4a4a6a;
+}
+
+/* --- Button Enhancements --- */
+.btn-primary {
+  background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 12px 28px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3) !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(67, 97, 238, 0.45) !important;
+}
+
+/* --- About Section --- */
+#about .lead {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #4a4a6a;
+}
+
+/* --- Experience Section --- */
+.section-experience {
+  padding: 80px 0;
+}
+
+.experience {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.experience:hover {
+  padding-left: 12px;
+  border-left: 3px solid #4361ee;
+}
+
+.experience:last-child {
+  border-bottom: none;
+}
+
+.experience__title {
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.experience__company {
+  color: #4a4a6a;
+}
+
+/* --- Education Section --- */
+.section-education .education-item {
+  padding: 16px 0;
+}
+
+/* --- Contact Section --- */
+#contact h2 {
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+/* --- Section Headings Global --- */
+section h2 {
+  position: relative;
+}
+
+/* --- Social Links --- */
+.platform-links a {
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.platform-links a:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+/* --- Smooth Scrolling --- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- Responsive Tweaks --- */
+@media (max-width: 768px) {
+  .section-skills {
+    padding: 50px 0;
+  }
+
+  .skill-card {
+    padding: 20px 18px;
+  }
+
+  .section-skills__title {
+    font-size: 1.6rem;
+    margin-bottom: 28px;
+  }
+
+  .rad-showcase .display-1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-grid .col-12 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
